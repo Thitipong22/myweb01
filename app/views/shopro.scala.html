@@ -1,0 +1,65 @@
+@(shirt1:Products,shirt2:Products,shirt3:Products,pant1:Products,pant2:Products,pant3:Products)
+<center>
+    <center><h1 style="color: white" >สินค้าทั้งหมด</h1></center><br><br>
+    <div class="row">
+        <div class="col-md-4" style="background-color: inherit">
+            <img src="assets/images/1.JPG" width="170">
+            <span><img src="assets/images/2.JPG" width="170" ></span><br>
+            <div class="alert alert-primary">ชื่อสินค้า : @shirt1.getName<br></div>
+            <div class="alert alert-primary">สี : @shirt1.getColor<br></div>
+            <div class="alert alert-primary">ไซส์ : @shirt1.getSize<br></div>
+            <div class="alert alert-primary">ราคา : @shirt1.getPrice<br></div>
+            <div class="alert alert-primary">จำนวนสินค้า : @shirt1.getAmount</div>
+        </div>
+        <div class="col-md-4" style="background-color: inherit">
+            <img src="assets/images/13.JPG" width="170">
+            <span><img src="assets/images/14.JPG" width="170" ></span><br>
+            <div class="alert alert-primary">ชื่อสินค้า : @shirt2.getName<br></div>
+            <div class="alert alert-primary">สี : @shirt2.getColor<br></div>
+            <div class="alert alert-primary">ไซส์ : @shirt2.getSize<br></div>
+            <div class="alert alert-primary">ราคา : @shirt2.getPrice<br></div>
+            <div class="alert alert-primary">จำนวนสินค้า : @shirt2.getAmount</div>
+        </div>
+
+    <div class="col-md-4"  style="background-color: inherit">
+        <img src="assets/images/21.JPG" width="170">
+        <span><img src="assets/images/22.JPG" width="170" ></span><br>
+        <div class="alert alert-primary">ชื่อสินค้า : @shirt3.getName<br></div>
+        <div class="alert alert-primary">สี : @shirt3.getColor<br></div>
+        <div class="alert alert-primary">ไซส์ : @shirt3.getSize<br></div>
+        <div class="alert alert-primary">ราคา : @shirt3.getPrice<br></div>
+        <div class="alert alert-primary">จำนวนสินค้า : @shirt3.getAmount</div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4" style="background-color: inherit">
+            <img src="assets/images/2.1.JPG" width="170">
+            <br>
+            <div class="alert alert-primary">ชื่อสินค้า : @pant1.getName<br></div>
+            <div class="alert alert-primary">สี : @pant1.getColor<br></div>
+            <div class="alert alert-primary">ไซส์ : @pant1.getSize<br></div>
+            <div class="alert alert-primary">ราคา : @pant1.getPrice<br></div>
+            <div class="alert alert-primary">จำนวนสินค้า : @pant1.getAmount</div>
+        </div>
+
+        <div class="col-md-4" style="background-color: ">
+            <img src="assets/images/2.2.JPG" width="170">
+            <br>
+            <div class="alert alert-primary">ชื่อสินค้า : @pant2.getName<br></div>
+            <div class="alert alert-primary">สี : @pant2.getColor<br></div>
+            <div class="alert alert-primary">ไซส์ : @pant2.getSize<br></div>
+            <div class="alert alert-primary">ราคา : @pant2.getPrice<br></div>
+            <div class="alert alert-primary">จำนวนสินค้า : @pant2.getAmount</div>
+        </div>
+
+        <div class="col-md-4" style="background-color: inherit">
+            <img src="assets/images/2.3.JPG" width="170">
+            <br>
+            <div class="alert alert-primary">ชื่อสินค้า : @pant3.getName<br></div>
+            <div class="alert alert-primary">สี : @pant3.getColor<br></div>
+            <div class="alert alert-primary">ไซส์ : @pant3.getSize<br></div>
+            <div class="alert alert-primary">ราคา : @pant3.getPrice<br></div>
+            <div class="alert alert-primary">จำนวนสินค้า : @pant3.getAmount</div>
+        </div>
+    </div>
+</center>

@@ -1,0 +1,47 @@
+@(content:Html)
+<html>
+    <head>
+        <title>
+            Sport Store
+        </title>
+        <link type="text/css" rel="stylesheet"
+        href="/assets/stylesheets/bootstrap/css/bootstrap.css">
+        <style>
+        body {
+            background-image: url("assets/images/bgg.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-shadow: 2px 2px 5px white;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" >
+            <div class="jumbotron" style="background-color: inherit">
+            <div class="row">
+                <div class="col-md-12">
+                    <center><h1>Sport Store</h1></center>
+                    <center><img src="assets/images/sport.png" width="250" ></center>
+
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="background-color: black">
+                    @menu()
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="background-color: inherit">
+                    @content
+                <br>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
